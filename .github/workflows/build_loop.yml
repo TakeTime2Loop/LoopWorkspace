@@ -278,7 +278,7 @@ jobs:
           lnl_icon \
           watch_title \
           profiles \
-          live_activity \
+          live_activity 
 
         
           # the final customization listed above CANNOT have a continuation character
