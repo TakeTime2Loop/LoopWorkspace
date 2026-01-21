@@ -204,8 +204,7 @@ jobs:
           watch_title \
           2hlollipop \
           profiles \
-          basal_lock \
-          negative_insulin 
+          basal_lock 
     
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
