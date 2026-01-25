@@ -203,8 +203,7 @@ jobs:
           lnl_icon \
           watch_title \
           2hlollipop \
-          profiles \
-          basal_lock 
+          profiles  
     
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
