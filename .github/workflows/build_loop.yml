@@ -207,6 +207,15 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
+          /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          future_carbs_4h \
+          override_sens \
+          now_line \
+          lnl_icon \
+          meal_days \
+          profiles 
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
