@@ -213,9 +213,14 @@ jobs:
           override_sens \
           now_line \
           lnl_icon \
-          watch_title \
+          2hlollipop \
           meal_days \
-          profiles 
+          profiles \
+          basal_lock \
+          negative_insulin 
+
+          # the final customization listed above CANNOT have a continuation character
+          # more customizations can be pasted after this line
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
