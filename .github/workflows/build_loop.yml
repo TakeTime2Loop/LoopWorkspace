@@ -206,7 +206,19 @@ jobs:
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
-
+      
+          /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          future_carbs_4h \
+          override_sens \
+          now_line \
+          lnl_icon \
+          2hlollipop \
+          meal_days \
+          profiles \
+          basal_lock \
+          negative_insulin 
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
