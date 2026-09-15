@@ -207,7 +207,7 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
           ref: ${{ env.TARGET_BRANCH }}
-
+        
       # Customize Loop: Download and apply patches
       - name: Customize Loop
         run: |
@@ -229,6 +229,17 @@ jobs:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
           # Submodule xxxxx patches:
+          /bin/bash -c "$(curl -fsSL \
+          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+          future_carbs_4h \
+          override_sens \
+          now_line \
+          lnl_icon \
+          2hlollipop \
+          meal_days \
+          profiles \
+          basal_lock \
+          negative_insulin 
 
           # Add patches for customization of additional submodules by following the templates above, 
           # and make sure to specify the submodule by setting "--directory=(submodule_name)".
