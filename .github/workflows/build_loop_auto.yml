@@ -252,6 +252,8 @@ jobs:
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
+          # Fox in the Loop House Food Emoji update. Edit LoopKit: LoopKitUI\CarbKit\FoodEmojiDataSource.swift
+           curl https://github.com/Nightfoxy-org/LoopKit/commit/32625ba43aebc493a3f934774b5dea552d891363.patch | git apply -v --directory=LoopKit
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
