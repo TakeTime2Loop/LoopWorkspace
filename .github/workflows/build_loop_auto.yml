@@ -242,7 +242,6 @@ jobs:
           override_sens \
           now_line \
           lnl_icon \
-          meal_days \
           profiles \
           negative_insulin 
 
