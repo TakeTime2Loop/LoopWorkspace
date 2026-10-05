@@ -219,7 +219,7 @@ jobs:
           fi
 
           # Submodule Loop patches:
-          # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
+          # Template for customizing submodule Loop (changes Loop app name to " GA's Loop")
           # Remove the "#" sign from the beginning of the line below to activate:
           curl https://github.com/loopnlearn/Loop/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply --directory=Loop -v --whitespace=fix
 
@@ -236,7 +236,6 @@ jobs:
           # Adding comments (#) may be useful to easily tell the individual patches apart.
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          override_sens \
           now_line \
           lnl_icon \
           meal_days \
