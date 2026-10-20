@@ -239,8 +239,7 @@ jobs:
           lnl_icon \
           2hlollipop \
           meal_days \
-          profiles \
-          negative_insulin \ 
+          profiles \ 
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
