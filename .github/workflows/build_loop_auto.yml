@@ -237,8 +237,10 @@ jobs:
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
           now_line \
           lnl_icon \
+          2hlollipop \
+          meal_days \
           profiles \
-          negative_insulin 
+          negative_insulin \ 
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
